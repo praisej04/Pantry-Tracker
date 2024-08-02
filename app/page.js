@@ -15,7 +15,7 @@ import {
 //defining wwindow
 import dynamic from 'next/dynamic';
 
-const ClientOnlyComponent = dynamic(() => import('../components/ClientOnlyComponent'), { ssr: false });
+const ClientOnlyComponent = dynamic(() => import('./ClientOnlyComponent'), { ssr: false });
 //
 
 const style = {
