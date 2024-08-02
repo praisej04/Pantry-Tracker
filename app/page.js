@@ -12,12 +12,6 @@ import {
     getDoc,
 } from 'firebase/firestore'
 
-//defining wwindow
-import dynamic from 'next/dynamic';
-
-const ClientOnlyComponent = dynamic(() => import('./ClientOnlyComponent'), { ssr: false });
-//
-
 const style = {
     position: 'absolute',
     top: '50%',
