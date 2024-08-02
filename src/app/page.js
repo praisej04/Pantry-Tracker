@@ -149,7 +149,7 @@ const filteredInventory = inventory.filter(item =>
                 justifyContent={'center'}
                 alignItems={'center'}
                 >
-                    <Typography variant={'h1'} color={'#333'} textAlign={'center'}>
+                    <Typography variant={'h2'} color={'#333'} textAlign={'center'}>
                         Inventory Items
                     </Typography>
                 </Box>
