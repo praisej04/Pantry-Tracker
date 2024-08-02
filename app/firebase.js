@@ -1,7 +1,7 @@
 //Firebase configuration
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import {getFirestore} from "firebase/firestore";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBZOvpz0DHQ2cqJQmo8ip_P-c1IGSZfZ4E",
   authDomain: "pantry-tracker-57a74.firebaseapp.com",
@@ -13,6 +13,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app)
 const firestore = getFirestore(app);
 export { firestore };
