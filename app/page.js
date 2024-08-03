@@ -129,6 +129,12 @@ const filteredInventory = inventory.filter(item =>
                 </Stack>
             </Box>
             </Modal> 
+            <Typography variant ={'h2'}  color={'#2f5916'} textAlign={'center'}>
+                Pantry Tracker
+            </Typography>
+            <Typography variant={'h4'} color={'#333'} textAlign={'center'}>
+                Your personal pantry management app! 
+            </Typography>
             <TextField 
             id="search"
             label="Search"
@@ -150,10 +156,10 @@ const filteredInventory = inventory.filter(item =>
                 alignItems={'center'}
                 >
                     <Typography variant={'h2'} color={'#333'} textAlign={'center'}>
-                        Inventory Items
+                        Inventory
                     </Typography>
                 </Box>
-                <Stack width="800px" height="400px" spacing={2} overflow={'auto'}>
+                <Stack width="800px" height="300px" spacing={2} overflow={'auto'}>
                     {filteredInventory.map(({name, quantity}) => (
                         <Box
                         key={name}
